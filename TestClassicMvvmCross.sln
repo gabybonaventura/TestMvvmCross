@@ -1,7 +1,9 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClassicMvvmCross", "TestClassicMvvmCross\TestClassicMvvmCross.csproj", "{71DFF4B6-68DC-4843-8A7D-AB1669B66C6C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClassicMvvmCross.Core", "TestClassicMvvmCross.Core\TestClassicMvvmCross.Core.csproj", "{B625CFDC-2780-45A0-A0B3-A0DADADAFCE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClassicMvvmCross.Android", "TestClassicMvvmCross.Android\TestClassicMvvmCross.Android.csproj", "{E79F31C1-5D8B-4BB8-8919-10B50C8709FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,9 +11,13 @@ Global
 		Release|anycpu = Release|anycpu
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{71DFF4B6-68DC-4843-8A7D-AB1669B66C6C}.Debug|anycpu.ActiveCfg = Debug|anycpu
-		{71DFF4B6-68DC-4843-8A7D-AB1669B66C6C}.Debug|anycpu.Build.0 = Debug|anycpu
-		{71DFF4B6-68DC-4843-8A7D-AB1669B66C6C}.Release|anycpu.ActiveCfg = Release|anycpu
-		{71DFF4B6-68DC-4843-8A7D-AB1669B66C6C}.Release|anycpu.Build.0 = Release|anycpu
+		{B625CFDC-2780-45A0-A0B3-A0DADADAFCE1}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{B625CFDC-2780-45A0-A0B3-A0DADADAFCE1}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{B625CFDC-2780-45A0-A0B3-A0DADADAFCE1}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{B625CFDC-2780-45A0-A0B3-A0DADADAFCE1}.Release|anycpu.Build.0 = Release|Any CPU
+		{E79F31C1-5D8B-4BB8-8919-10B50C8709FC}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{E79F31C1-5D8B-4BB8-8919-10B50C8709FC}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{E79F31C1-5D8B-4BB8-8919-10B50C8709FC}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{E79F31C1-5D8B-4BB8-8919-10B50C8709FC}.Release|anycpu.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

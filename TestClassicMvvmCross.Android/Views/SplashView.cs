@@ -1,26 +1,23 @@
 ﻿
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
 using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
+using Android.Content.PM;
+using MvvmCross.Platforms.Android.Core;
+using MvvmCross.Platforms.Android.Views;
+using TestClassicMvvmCross.Core;
 
 namespace TestClassicMvvmCross.Android.Views
 {
-    [Activity(Label = "SplashView")]
-    public class SplashView : Activity
-    {
-        protected override void OnCreate(Bundle savedInstanceState)
-        {
-            base.OnCreate(savedInstanceState);
-
-            // Create your application here
-        }
-    }
+    [Activity(
+		Label = "@string/app_name",
+		MainLauncher = true,
+		Icon = "@drawable/icon",
+		Theme = "@style/Theme.Splash",
+		NoHistory = true,
+		ScreenOrientation = ScreenOrientation.Portrait)]
+	public class SplashView : MvxSplashScreenActivity<MvxAndroidSetup<App>, App>
+	{
+		public SplashView() : base(Resource.Layout.SplashLayout)
+		{
+		}
+	}
 }
